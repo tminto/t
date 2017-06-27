@@ -1,0 +1,251 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*GENERAL*/
+
+body, html {
+	background-color:#ffffff;
+	padding:0px;
+	margin:0px;
+}
+.wrapper {
+  width:100%;	
+
+}
+main {
+
+  padding:0px 0px;	
+  margin:0px auto;
+ width:960px;
+}
+
+
+.container {
+
+width: 100%;
+height: auto;
+	
+}
+
+.center {
+margin:0px auto;
+display:block;	
+	
+}
+
+.left {
+float:left;	
+}
+
+.bodytext {
+font-family:Arial, Helvetica, sans-serif;
+font-size:.9em;
+color:#333;
+line-height:1.5em;	
+	
+}
+
+
+
+/*HOME*/
+.inshphoto {
+	/*width:100%;*/
+	/*max-width:940px;*/
+	margin: 5% auto 0px auto;
+
+}
+
+.inshphoto img {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;	
+}
+
+/*ABOUT*/
+#title_about {
+	width:133px;
+	padding:60px 0px;
+	
+	
+}
+.about_portrait {
+width:339px;
+float:left;	
+line-height:1.5em;
+}
+about_portrait img {
+vertical-align: text-top;	
+}
+.about_text {
+width:566px;
+padding:0px 20px;
+float:left;	
+vertical-align:top;
+margin-left:15px;
+text-align:top;
+	}
+
+/*PROJECTS*/
+#title_projects {
+		width:333px;
+		padding:60px 0px;
+}
+
+#title_works {
+		width:269px;
+		padding:60px 0px;
+}
+
+
+.project_text1 {
+width:585px;
+text-align:left;
+}
+
+.project_text2 {
+width:585px;
+text-align:center;
+}
+
+.projects_padding_bottom {
+padding-bottom:25px;	
+	
+}
+.projects_padding_top {
+padding-top:50px;	
+}
+
+.project_title {
+ width:615px;
+}
+.project_img {
+width:429px;
+	
+}
+#btn_buy {
+width:246px;
+}
+.project_coming {
+width:246px;	
+}
+/*POEMS*/
+#title_poems {
+width:443px;
+padding:60px 0px;		
+}
+.poem {
+text-align:center;
+margin-bottom:4%;
+}
+.poemtitle {
+font-weight:bold;
+color:#0caaab;
+}
+
+/*GENERAL*/
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+@media screen 
+and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+main {
+background-color:#ffffff;
+width:100%;
+padding:0px;	
+margin:0px auto;
+}
+
+#title_projects {
+	width:60%;
+	padding:6% 0px;
+	
+}
+#title_works {
+	width:48%;
+	padding:6% 0px;
+	
+}
+
+
+#title_poems {
+width:80%;
+padding:6% 0px;	
+}
+
+#title_about {
+width:25%;
+	padding:6% 0px;	
+}
+
+
+.project_title {
+ width:80%;
+}
+
+.project_img  {
+	width:73%;
+	
+}
+
+.projects_padding_bottom {
+padding-bottom:5%;	
+	
+}
+.projects_padding_top {
+padding-top:6%;	
+}
+
+.bodytext {
+font-size:2.2em;
+line-height:1.8em;	
+}
+  
+.project_text1, .project_text2 {
+width:90%;
+text-align:left;
+}
+
+#btn_buy {
+width:60%;
+}
+.project_coming {
+width:40%;	
+}
+	
+.about_portrait {
+width:80%;
+float:none;	
+}
+
+.about_text {
+float: none;
+width:80%;
+margin:0px auto;
+padding-top:3%;
+	}
+
+.inshphoto {
+	width:100%;
+	margin:0px;
+	padding:0px;
+
+}
+.inshphoto img{
+	width:100%;
+	padding:0px;
+
+}
+
+  }

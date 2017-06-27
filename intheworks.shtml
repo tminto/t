@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <title>Inshirah Aleem</title>
+<link href="styles.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+<div class="wrapper">
+
+<!--#include file = "header.html" -->
+
+<main>
+<div id="title_works" class="center">
+<img src="images/header_intheworks.png"  style="width:100%;height:auto; background-color:#6cc0b2;">
+</div>
+
+
+
+<div class="projects_padding_bottom project_coming center">
+<img src="images/PROJECTS_18.png"    style="width:100%;height:auto;">
+</div>
+<div class="projects_margin_bottom project_title center projects_padding_bottom">
+<img src="images/PROJECTS_20.png" style="width:100%;height:auto;" class="center">
+</div>
+<div class="projects_padding_bottom project_img center">
+<img src="images/PROJECTS_22-23.png" style="width:100%;height:auto;" class="center">
+</div>
+<div class="bodytext project_text2 center projects_padding_bottom" >
+Out of the ashes…The image of the mythical phoenix appears…
+</div>
+
+</main>
+
+
+
+<footer>
+<!--#include file = "footer.html" -->
+</footer>
+</div><!--END WRAPPER-->
+
+
+</body>
+</html>

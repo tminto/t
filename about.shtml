@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <title>Inshirah Aleem</title>
+<link href="styles.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+<div class="wrapper">
+
+<!--#include file = "header.html" -->
+
+<main>
+<div id="title_about" class="center">
+<img src="images/header_about.png"  style="width:100%;height:auto;background-color:#7f6dad;margin-bottom:2%;">
+</div>
+<div class="clearfix" style="width:100%;">
+<div class="about_portrait center">
+ <img src="images/ABOUT_07.png" style="width:100%;height:auto;">
+</div>
+<div class="bodytext about_text">
+Inshirah Aleem was born and raised in Springfield, Massachusetts. She currently resides in Greenbelt, Maryland.  She is a Special Educator at a charter school in Washington, DC.  Her memoir entitled, She Smiles and Cries, highlights her struggles with mental illness. Poetry and prose have carried her through the darkest of times. At the age of 15, she was diagnosed with a severe form of Bipolar Disorder. She writes to educate, inspire and challenge the stigma attached to mental illness. 
+<p>
+She currently serves as a board member of the Muslim Wellness Foundation, which is an organization committed to reducing stigma for those living with mental illness.  She is a spokeswoman for NAMI (National Alliance on Mental Illness) "In Our Own Voice" (IOOV), which is a program that provides a platform for individuals with mental illness to share their stories and educate people about mental illness. Most recently, Inshirah has been certified as a State to State Trainer for "IOOV" NAMI, which allows her to spread her message nationally. NAMI/DC has also publicly supported her book throughout the DC Metro area. Inshirah has worked with organizations such as Make Space, Muslim Wellness Foundation, Recovery Partners Montgomery County and BBYO (formerly B'nai B'rith Youth Organization) to spread her story of inspiration throughout the nation.
+<p>
+Inshirah has acquired a true appreciation for life, love of self and the humility to embrace the journey. She is available for speaking engagements and is scheduled to speak at Princeton in April as well as other events in the upcoming months. She is in the process of publishing her sequel, "She Smiles and Cries: The Phoenix" and adapting both memoirs into a screenplay. She believes the Creator has blessed her with this struggle and light to ease the pain of those suffering in darkness without sight. 
+
+</div>
+</div>
+</main>
+
+
+
+<footer>
+<!--#include file = "footer.html" -->
+</footer>
+</div><!--END WRAPPER-->
+
+
+</body>
+</html>
