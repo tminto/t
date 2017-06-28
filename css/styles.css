@@ -177,7 +177,8 @@ body, html {
 	margin:0px;
 }
 .wrapper {
-  width:100%;	
+  width:100%;
+
 
 }
 main {
@@ -188,7 +189,7 @@ width:960px;
 background-image:url("../images/insh_homebg.jpg");
 background-repeat:no-repeat;
 height:546px;
-flex:1 1 auto;/*grow vertically*/ 
+flex:1 0 auto;/*grow vertically*/ 
 }
 
 
