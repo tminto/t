@@ -28,8 +28,7 @@ body, html {
 	height:100%;
 }
 body {
-	display: flex;
-  	flex-direction: column;
+
 }
 	
 /*WRAPPER*/
@@ -189,7 +188,7 @@ width:960px;
 background-image:url("../images/insh_homebg.jpg");
 background-repeat:no-repeat;
 height:546px;
-flex:1 0 auto;/*grow vertically*/ 
+padding-bottom:60px;
 }
 
 
@@ -341,6 +340,7 @@ background-color:#fff;
 width:100%;
 padding:0px;	
 margin:0px auto;
+
 }
 
 #title_projects {
@@ -444,7 +444,7 @@ footer {
 	position:absolute;
 	bottom:0;
 	left:0;
-	height:100px;
+	height:70px;
 	width:100%;
 	margin-top:auto;
 }
