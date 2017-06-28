@@ -27,7 +27,10 @@ body, html {
 	margin:0px;
 	height:100%;
 }
-
+body {
+	display: flex;
+  	flex-direction: column;
+}
 	
 /*WRAPPER*/
 #wrapper {
@@ -184,7 +187,8 @@ margin:0px auto;
 width:960px;
 background-image:url("../images/insh_homebg.jpg");
 background-repeat:no-repeat;
-max-height:546px;
+height:546px;
+flex:1 1 auto;/*grow vertically*/ 
 }
 
 
@@ -441,7 +445,7 @@ footer {
 	left:0;
 	height:100px;
 	width:100%;
-	margin-top:30px;
+	margin-top:auto;
 }
 
 @media screen 
