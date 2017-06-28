@@ -10,7 +10,7 @@ body, html {
 	
 
 /*HEADER IMAGE*/
-header {
+#headerContainer {
 margin:0px auto;
 max-width:500px;
 }
