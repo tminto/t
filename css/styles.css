@@ -454,6 +454,7 @@ footer {
 @media only screen and (max-width: 480px) {
 	  .footer_text {
 		  font-size:2em;
+		  color:blue;
 	  }
 	  
   }
