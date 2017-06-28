@@ -6,13 +6,16 @@ body, html {
 	padding:0px;
 	margin:0px;
 }
-/*FULL WIDTH BG COLOR OF DARK BLUE*/
 	
-
+/*WRAPPER*/
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
 /*HEADER IMAGE*/
 #headerContainer {
-margin:0px auto;
-max-width:500px;
+	margin:0px auto;
+	max-width:500px;
 }
 /*NAVIGATION*/
 #navContainer {
@@ -25,9 +28,9 @@ max-width:500px;
 	
 }
 #navResult, #headerResult {
-margin:0px auto;
-width:100%;
-background-color:#220956;	
+	margin:0px auto;
+	width:100%;
+	background-color:#220956;	
 }
 #headerResult {
 	padding-top:5%;
@@ -46,22 +49,22 @@ nav li {
 }*/
 html nav ul {
     margin-left: -40px;
-	 overflow: hidden;
+	overflow: hidden;
 }
 nav span, nav a {
  
 	text-decoration:none;
 	font-family:'Montserrat', Arial, Helvetica, sans-serif;
 	color:#fff;
-	 font-size:.8em;
+	font-size:.8em;
 	 
 }
 nav a:hover {
-color:#c433b1;	
+	color:#c433b1;	
 }
 
 nav a:active {
-color:#c433b1;
+	color:#c433b1;
 }
 
 
@@ -84,17 +87,17 @@ color:#c433b1;
 	}
 	
 .width5 a {
-color:#c433b1;
+	color:#c433b1;
 	
 }
 .width5 a:hover {
-color:#94dcd6;	
+	color:#94dcd6;	
 }
 
 @media only screen and (max-width: 850px) {
    nav span, nav a 
    {
-        font-size:.75em;
+     font-size:.75em;
     }
 }
 
@@ -103,11 +106,11 @@ color:#94dcd6;
 
 nav 
 {
-background-color:#c433b1;
-padding:4% 0px 0px 0px;
-width:100%;
-margin: 0px auto;
-max-width:100%;
+	background-color:#c433b1;
+	padding:4% 0px 0px 0px;
+	width:100%;
+	margin: 0px auto;
+	max-width:100%;
 }
 
 nav li {
@@ -117,20 +120,20 @@ nav li {
 	list-style: none;
 }
  nav span, nav a {
-        font-size:2.3em;
-		color:#fff;
+    font-size:2.3em;
+	color:#fff;
 	
 				
     }
-	.width1, .width2, .width3, .width4, .width5
- {
+.width1, .width2, .width3, .width4, .width5
+{
 	width:100%;
 	padding-bottom:5%;
 	}
-	.width5 a {  
+.width5 a {  
     color:#fff;
 }
-    .width5 a:hover {
+.width5 a:hover {
     color:#fff;	
 }
 header 
@@ -400,13 +403,17 @@ background-color:#50454c;
 padding-top:2%;
 padding-bottom:3%;
 text-align:center;
-
 }
 .footer_text {
 color:#ffffff;	
 font-family:helvetica, arial, sans-serif;
 font-size:.9em;
 text-decoration:none;
+}
+#footerResult {
+	position:absolute;
+	bottom:0;
+	left:0;
 }
 
 @media screen 
