@@ -42,6 +42,10 @@ body {
 	margin:0px auto;
 	max-width:500px;
 }
+
+#headerContainer img {
+	width:90%;
+}
 /*NAVIGATION*/
 #navContainer {
    
@@ -193,10 +197,35 @@ height:546px;
 background-image:url("../images/insh_homebg.jpg");
 background-repeat:no-repeat;
 background-size:cover;
+position:relative;
 
 
 }
 
+.textOver {
+float:left;
+height:300px;
+display:block;
+position:absolute;
+}
+
+.poemLink {
+font-family:'Montserrat', helvetica, arial, sans-serif;
+color:#fff;
+font-size:14px;
+
+}
+
+.poemLinkContainer {
+width:200px;
+height:50px;
+position:absolute;
+
+}
+
+.poemLinkArrow {
+float:left;
+}
 
 
 .container {
