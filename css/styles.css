@@ -337,7 +337,15 @@ color:#0caaab;
 .clearfix { display: block; }
 /* close commented backslash hack */
 
-
+@media only screen and (max-width: 610px) {
+	main {
+		background-color:#fff;
+		width:610px;
+		height:354px;
+		padding:0px;	
+		margin:0px auto;
+		}
+}
 
 @media only screen and (max-width: 480px) {
 	main {
