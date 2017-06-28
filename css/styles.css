@@ -20,7 +20,7 @@ margin:0px auto;
 max-width:500px;
 }
 /*NAVIGATION*/
-nav {
+#navContainer {
    
     max-width:940px;
 	text-transform:uppercase;
@@ -32,8 +32,7 @@ nav {
 #navResult {
 margin:0px auto;
 width:100%;
-/*background-color:#220956;	*/
-background-color:yellow;
+background-color:#220956;	
 padding-top:5%;
 }
 nav li {
