@@ -1,6 +1,26 @@
 @charset "UTF-8";
 /* CSS Document */
 
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+
 /*NAVIGATION*/
 body, html {
 	padding:0px;
@@ -163,6 +183,8 @@ padding:0px 0px;
 margin:0px auto;
 width:960px;
 background-image:url("../images/insh_homebg.jpg");
+background-repeat:no-repeat;
+max-height:546px;
 }
 
 
