@@ -7,13 +7,8 @@ body, html {
 	margin:0px;
 }
 /*FULL WIDTH BG COLOR OF DARK BLUE*/
-.layout{	
-margin:0px auto;
-width:100%;
-background-color:#220956;	
-padding-top:5%;
+	
 
-}
 /*HEADER IMAGE*/
 header {
 margin:0px auto;
@@ -29,7 +24,7 @@ max-width:500px;
 	padding-bottom:1.5%;
 	
 }
-#navResult {
+#navResult, #headerResult {
 margin:0px auto;
 width:100%;
 background-color:#220956;	
