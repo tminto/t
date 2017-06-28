@@ -392,5 +392,30 @@ padding-top:3%;
 }
 
  }
+ /*FOOTER*/
+ .bottom {	
+margin:2% auto 0px auto;
+width:100%;
+background-color:#50454c;
+padding-top:2%;
+padding-bottom:3%;
+text-align:center;
+
+}
+.footer_text {
+color:#ffffff;	
+font-family:helvetica, arial, sans-serif;
+font-size:.9em;
+text-decoration:none;
+}
+
+@media screen 
+and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+	  .footer_text {
+		  font-size:2em;
+	  }
+	  
+  }
 
 
