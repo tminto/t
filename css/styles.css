@@ -1,0 +1,393 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*NAVIGATION*/
+body, html {
+	padding:0px;
+	margin:0px;
+}
+/*FULL WIDTH BG COLOR OF DARK BLUE*/
+.layout{	
+margin:0px auto;
+width:100%;
+background-color:#220956;	
+padding-top:5%;
+
+}
+/*HEADER IMAGE*/
+header {
+margin:0px auto;
+max-width:500px;
+}
+/*NAVIGATION*/
+nav {
+   
+    max-width:940px;
+	text-transform:uppercase;
+	margin:0px auto;
+	padding-top:1%;
+	padding-bottom:1.5%;
+	
+}
+nav li {
+	list-style: none;
+    float: left;
+    text-align: center;
+    display: inline;
+	 /* fallback for non-calc() browsers */
+    width: calc(100% / 4);
+	box-sizing: border-box;
+}
+/*nav li:first-child {
+    margin-left:39px;
+}*/
+html nav ul {
+    margin-left: -40px;
+	 overflow: hidden;
+}
+nav span, nav a {
+ 
+	text-decoration:none;
+	font-family:'Montserrat', Arial, Helvetica, sans-serif;
+	color:#fff;
+	 font-size:.8em;
+	 
+}
+nav a:hover {
+color:#c433b1;	
+}
+
+nav a:active {
+color:#c433b1;
+}
+
+
+
+.width1
+ {
+	width:23%
+	}
+.width2 {
+	width:22%;
+	}
+.width3 {
+	width:27%;
+	}
+.width4 {
+	width:15%;
+	}
+.width5 {
+	width:13%;
+	}
+	
+.width5 a {
+color:#c433b1;
+	
+}
+.width5 a:hover {
+color:#94dcd6;	
+}
+
+@media only screen and (max-width: 850px) {
+   nav span, nav a 
+   {
+        font-size:.75em;
+    }
+}
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+nav 
+{
+background-color:#c433b1;
+padding:4% 0px 0px 0px;
+width:100%;
+margin: 0px auto;
+max-width:100%;
+}
+
+nav li {
+	
+    display: block;
+	float:none;
+	list-style: none;
+}
+ nav span, nav a {
+        font-size:2.3em;
+		color:#fff;
+	
+				
+    }
+	.width1, .width2, .width3, .width4, .width5
+ {
+	width:100%;
+	padding-bottom:5%;
+	}
+	.width5 a {  
+    color:#fff;
+}
+    .width5 a:hover {
+    color:#fff;	
+}
+header 
+{
+	margin-top:2%;
+	margin-bottom:4%;
+	max-width:70%;
+}
+  }
+
+/*GENERAL*/
+
+body, html {
+	background-color:#ffffff;
+	padding:0px;
+	margin:0px;
+}
+.wrapper {
+  width:100%;	
+
+}
+main {
+
+padding:0px 0px;	
+margin:0px auto;
+width:960px;
+}
+
+
+
+.container {
+
+width: 100%;
+height: auto;
+	
+}
+
+.center {
+margin:0px auto;
+display:block;	
+	
+}
+
+.left {
+float:left;	
+}
+
+.bodytext {
+font-family:Arial, Helvetica, sans-serif;
+font-size:.9em;
+color:#333;
+line-height:1.5em;	
+	
+}
+
+
+
+/*HOME*/
+.inshphoto {
+	/*width:100%;*/
+	/*max-width:940px;*/
+	margin: 5% auto 0px auto;
+
+}
+
+.inshphoto img {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;	
+}
+
+/*ABOUT*/
+#title_about {
+	width:133px;
+	padding:60px 0px;
+	
+	
+}
+.about_portrait {
+width:339px;
+float:left;	
+line-height:1.5em;
+}
+
+.about_portrait img {
+vertical-align: text-top;	
+}
+.about_text {
+width:566px;
+padding:0px 20px;
+float:left;	
+vertical-align:top;
+margin-left:15px;
+text-align:top;
+	}
+
+/*PROJECTS*/
+#title_projects {
+		width:333px;
+		padding:60px 0px;
+}
+
+#title_works {
+		width:269px;
+		padding:60px 0px;
+}
+
+
+.project_text1 {
+width:585px;
+text-align:left;
+}
+
+.project_text2 {
+width:585px;
+text-align:center;
+}
+
+.projects_padding_bottom {
+padding-bottom:25px;	
+	
+}
+.projects_padding_top {
+padding-top:50px;	
+}
+
+.project_title {
+ width:615px;
+}
+.project_img {
+width:429px;
+	
+}
+#btn_buy {
+width:246px;
+}
+.project_coming {
+width:246px;	
+}
+/*POEMS*/
+#title_poems {
+width:443px;
+padding:60px 0px;		
+}
+.poem {
+text-align:center;
+margin-bottom:4%;
+}
+.poemtitle {
+font-weight:bold;
+color:#0caaab;
+}
+
+/*GENERAL*/
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) { 
+
+main {
+background-color:#fff;
+width:100%;
+padding:0px;	
+margin:0px auto;
+}
+
+#title_projects {
+	width:60%;
+	padding:6% 0px;
+	
+}
+#title_works {
+	width:48%;
+	padding:6% 0px;
+	
+}
+
+
+#title_poems {
+width:80%;
+padding:6% 0px;	
+}
+
+#title_about {
+width:25%;
+	padding:6% 0px;	
+}
+
+
+.project_title {
+ width:80%;
+}
+
+.project_img  {
+	width:73%;
+	
+}
+
+.projects_padding_bottom {
+padding-bottom:5%;	
+	
+}
+.projects_padding_top {
+padding-top:6%;	
+}
+
+.bodytext {
+font-size:2.2em;
+line-height:1.8em;	
+}
+  
+.project_text1, .project_text2 {
+width:90%;
+text-align:left;
+}
+
+#btn_buy {
+width:60%;
+}
+.project_coming {
+width:40%;	
+}
+	
+.about_portrait {
+width:80%;
+float:none;	
+}
+
+.about_text {
+float: none;
+width:80%;
+margin:0px auto;
+padding-top:3%;
+	}
+
+.inshphoto {
+	width:100%;
+	margin:0px;
+	padding:0px;
+
+}
+.inshphoto img{
+	width:100%;
+	padding:0px;
+
+}
+
+ }
+
+
