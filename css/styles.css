@@ -127,7 +127,7 @@ nav a:active {
 }
 
 
-@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
 
 	#navContainer
 	{
@@ -336,97 +336,96 @@ color:#0caaab;
 
 
 
-@media screen and (min-device-width: 320px) and (max-device-width: 480px) { 
+@media only screen and (max-width: 480px) {
+	main {
+	background-color:#fff;
+	width:480px;
+	height:279px;
+	padding:0px;	
+	margin:0px auto;
 
-main {
-background-color:#fff;
-width:480px;
-height:279px;
-padding:0px;	
-margin:0px auto;
-
-}
-
-#title_projects {
-	width:60%;
-	padding:6% 0px;
-	
-}
-#title_works {
-	width:48%;
-	padding:6% 0px;
-	
-}
-
-
-#title_poems {
-width:80%;
-padding:6% 0px;	
-}
-
-#title_about {
-width:25%;
-	padding:6% 0px;	
-}
-
-
-.project_title {
- width:80%;
-}
-
-.project_img  {
-	width:73%;
-	
-}
-
-.projects_padding_bottom {
-padding-bottom:5%;	
-	
-}
-.projects_padding_top {
-padding-top:6%;	
-}
-
-.bodytext {
-font-size:2.2em;
-line-height:1.8em;	
-}
-  
-.project_text1, .project_text2 {
-width:90%;
-text-align:left;
-}
-
-#btn_buy {
-width:60%;
-}
-.project_coming {
-width:40%;	
-}
-	
-.about_portrait {
-width:80%;
-float:none;	
-}
-
-.about_text {
-float: none;
-width:80%;
-margin:0px auto;
-padding-top:3%;
 	}
 
-.inshphoto {
-	width:100%;
-	margin:0px;
-	padding:0px;
+	#title_projects {
+		width:60%;
+		padding:6% 0px;
+		
+	}
+	#title_works {
+		width:48%;
+		padding:6% 0px;
+		
+	}
 
-}
-.inshphoto img{
-	width:100%;
-	padding:0px;
 
-}
+	#title_poems {
+	width:80%;
+	padding:6% 0px;	
+	}
+
+	#title_about {
+	width:25%;
+		padding:6% 0px;	
+	}
+
+
+	.project_title {
+	 width:80%;
+	}
+
+	.project_img  {
+		width:73%;
+		
+	}
+
+	.projects_padding_bottom {
+	padding-bottom:5%;	
+		
+	}
+	.projects_padding_top {
+	padding-top:6%;	
+	}
+
+	.bodytext {
+	font-size:2.2em;
+	line-height:1.8em;	
+	}
+	  
+	.project_text1, .project_text2 {
+	width:90%;
+	text-align:left;
+	}
+
+	#btn_buy {
+	width:60%;
+	}
+	.project_coming {
+	width:40%;	
+	}
+		
+	.about_portrait {
+	width:80%;
+	float:none;	
+	}
+
+	.about_text {
+	float: none;
+	width:80%;
+	margin:0px auto;
+	padding-top:3%;
+		}
+
+	.inshphoto {
+		width:100%;
+		margin:0px;
+		padding:0px;
+
+	}
+	.inshphoto img{
+		width:100%;
+		padding:0px;
+
+	}
 
  }
  /*FOOTER*/
@@ -452,9 +451,7 @@ footer {
 	width:100%;
 }
 
-@media screen 
-and (min-device-width: 320px) 
-  and (max-device-width: 480px) {
+@media only screen and (max-width: 480px) {
 	  .footer_text {
 		  font-size:2em;
 	  }
