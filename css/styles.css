@@ -186,9 +186,11 @@ main {
 padding:0px 0px;	
 margin:40px auto;
 width:960px;
+height:546px;
 background-image:url("../images/insh_homebg.jpg");
 background-repeat:no-repeat;
-height:546px;
+background-size:cover;
+
 
 }
 
@@ -338,7 +340,8 @@ color:#0caaab;
 
 main {
 background-color:#fff;
-width:100%;
+width:480px;
+height:279px;
 padding:0px;	
 margin:0px auto;
 
