@@ -32,7 +32,8 @@ nav {
 #navResult {
 margin:0px auto;
 width:100%;
-background-color:#220956;	
+/*background-color:#220956;	*/
+background-color:yellow;
 padding-top:5%;
 }
 nav li {
