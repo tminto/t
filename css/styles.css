@@ -400,7 +400,7 @@ font-size:1.6em;
 		width:70%;
 	}
 	.textOver {
-		left:100px;
+		left:80px;
 		top:60px;
 	}
 	#navContainer
@@ -539,15 +539,16 @@ font-size:1.6em;
 
 
 
-
-
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 400px) {
 	#mainImage {
 	background-color:#fff;
-	width:380px;
-	height:221px;
+	width:400px;
+	height:232px;
 	padding:0px;	
 	margin:0px auto;
+	}
+	.textOver {
+		display:none;
 	}
 }
 @media only screen and (max-width: 320px) {
