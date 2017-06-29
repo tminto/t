@@ -40,11 +40,13 @@ body {
 /*HEADER IMAGE*/
 #headerContainer {
 	margin:0px auto;
-	max-width:500px;
+	max-width:450px;
+	
 }
 
 #headerContainer img {
-	width:90%;
+	width:100%;
+
 }
 /*NAVIGATION*/
 #navContainer {
@@ -100,20 +102,21 @@ nav a:active {
 
 .width1
  {
-	width:23%
+	width:26%
 	}
 .width2 {
-	width:22%;
+	width:25%;
 	}
 .width3 {
-	width:27%;
+	width:30%;
 	}
 .width4 {
-	width:15%;
+	width:19%;
 	}
-.width5 {
+/*.width5 {
 	width:13%;
 	}
+*/
 	
 .width5 a {
 	color:#c433b1;
@@ -123,57 +126,6 @@ nav a:active {
 	color:#94dcd6;	
 }
 
-@media only screen and (max-width: 850px) {
-   nav span, nav a 
-   {
-     font-size:.75em;
-    }
-}
-
-
-@media only screen and (max-width: 480px) {
-
-	#navContainer
-	{
-		background-color:#c433b1;
-		padding:4% 0px 0px 0px;
-		width:100%;
-		margin: 0px auto;
-		max-width:100%;
-	}
-
-	#navContainer li {
-		
-	    display: block;
-		float:none;
-		list-style: none;
-	}
-	 #navContainer span, #navContainer a {
-	    font-size:2em;
-		color:#fff;
-	    }
-
-	.width1, .width2, .width3, .width4, .width5
-	{
-		width:100%;
-		padding-bottom:5%;
-		}
-	.width5 a {  
-	    color:#fff;
-	}
-	.width5 a:hover {
-	    color:#fff;	
-	}
-	#headerContainer 
-	{
-		margin-top:2%;
-		margin-bottom:4%;
-		max-width:70%;
-	}
-	#headerResult {
-		padding-bottom:2%;
-	}
- }
 
 /*GENERAL*/
 
@@ -184,47 +136,10 @@ body, html {
 }
 .wrapper {
   width:100%;
-
-
-
-}
-main {
-
-padding:0px 0px;	
-margin:40px auto;
-width:960px;
-height:546px;
-background-image:url("../images/insh_homebg.jpg");
-background-repeat:no-repeat;
-background-size:cover;
-position:relative;
-
-
 }
 
-.textOver {
-float:left;
-height:300px;
-display:block;
-position:absolute;
-}
-
-.poemLink {
-font-family:'Montserrat', helvetica, arial, sans-serif;
-color:#fff;
-font-size:14px;
-
-}
-
-.poemLinkContainer {
-width:200px;
-height:50px;
-position:absolute;
-
-}
-
-.poemLinkArrow {
-float:left;
+.centerMain {
+	
 }
 
 
@@ -250,12 +165,64 @@ font-family:Arial, Helvetica, sans-serif;
 font-size:.9em;
 color:#333;
 line-height:1.5em;	
+margin-bottom:40px;
 	
 }
 
 
-
 /*HOME*/
+
+#mainImage {
+
+padding:0px 0px;	
+margin:40px auto;
+width:960px;
+height:546px;
+background-image:url("../images/insh_homebg.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+position:relative;
+
+
+}
+
+.textOver {
+float:left;
+height:300px;
+width:300px;
+display:block;
+position:absolute;
+left:125px;
+top:100px;
+}
+
+.poemLinkContainer {
+width:280px;
+height:30px;
+position:absolute;
+top:460px;
+left:270px;
+
+}
+
+
+.poemLink, .poemLink a {
+	font-family:'Montserrat', helvetica, arial, sans-serif;
+	color:#fff;
+	font-size:17px;
+	float:left;
+	padding-right:6px;
+	line-height:26px;
+	text-decoration:none;
+}
+
+.poemLink a:hover {
+	color:#c433b1;
+}
+
+.poemLinkArrow {
+	float:left;
+}
 .inshphoto {
 	/*width:100%;*/
 	/*max-width:940px;*/
@@ -274,7 +241,10 @@ line-height:1.5em;
 	width:133px;
 	padding:60px 0px;
 	
-	
+}
+.aboutWrapper {
+	width:940px;
+	margin:0px auto;
 }
 .about_portrait {
 width:339px;
@@ -338,17 +308,29 @@ width:246px;
 width:246px;	
 }
 /*POEMS*/
+.poemsContainer {
+	width:500px;
+	margin-left:150px;
+	margin:0px auto;
+}
+.poemColsContainer {
+	width:940px;
+	margin:0px auto;
+}
 #title_poems {
 width:443px;
 padding:60px 0px;		
 }
 .poem {
-text-align:center;
+text-align:left;
 margin-bottom:4%;
+background-color:#F4F3F3;
+padding:7%;
+font-size:.8em;
 }
 .poemtitle {
-font-weight:bold;
 color:#0caaab;
+font-size:1.6em;
 }
 
 /*GENERAL*/
@@ -366,17 +348,41 @@ color:#0caaab;
 .clearfix { display: block; }
 /* close commented backslash hack */
 
-@media only screen and (max-width: 610px) {
-	main {
-		background-color:#fff;
-		width:610px;
-		height:354px;
-		padding:0px;	
-		}
+
+
+@media only screen and (max-width: 850px) {
+   nav span, nav a 
+   {
+     font-size:.75em;
+    }
 }
 
+
+
+@media only screen and (max-width: 610px) {
+	#mainImage {
+		width:610px;
+		height:354px;
+		}
+	.textOver img {
+		width:75%;
+	}
+	.textOver {
+		left:100px;
+		top:60px;
+	}
+	.poemLinkContainer {
+		top:270px;
+		left:150px;
+
+	}
+
+}
+
+
 @media only screen and (max-width: 480px) {
-	main {
+
+	#mainImage {
 	background-color:#fff;
 	width:480px;
 	height:279px;
@@ -384,6 +390,57 @@ color:#0caaab;
 	margin:0px auto;
 
 	}
+	
+
+
+	.textOver img {
+		width:100%;
+	}
+	.textOver {
+		left:100px;
+		top:60px;
+	}
+	#navContainer
+	{
+		background-color:#c433b1;
+		padding:4% 0px 0px 0px;
+		width:100%;
+		margin: 0px auto;
+		max-width:100%;
+	}
+
+	#navContainer li {
+		
+	    display: block;
+		float:none;
+		list-style: none;
+	}
+	 #navContainer span, #navContainer a {
+	    font-size:2em;
+		color:#fff;
+	    }
+
+	.width1, .width2, .width3, .width4, .width5
+	{
+		width:100%;
+		padding-bottom:5%;
+		}
+	.width5 a {  
+	    color:#fff;
+	}
+	.width5 a:hover {
+	    color:#fff;	
+	}
+	#headerContainer 
+	{
+		margin-top:2%;
+		margin-bottom:4%;
+		max-width:70%;
+	}
+	#headerResult {
+		padding-bottom:2%;
+	}
+	
 
 	#title_projects {
 		width:60%;
@@ -465,11 +522,24 @@ color:#0caaab;
 		padding:0px;
 
 	}
+	.poem {
+	
+	padding:7%;
+	font-size:.9em;
+	}
+	.poemtitle {
+	color:#0caaab;
+	font-size:1.6em;
+	}
 
  }
 
+
+
+
+
 @media only screen and (max-width: 380px) {
-	main {
+	#mainImage {
 	background-color:#fff;
 	width:380px;
 	height:221px;
@@ -478,7 +548,7 @@ color:#0caaab;
 	}
 }
 @media only screen and (max-width: 320px) {
-	main {
+	#mainImage {
 	background-color:#fff;
 	width:320px;
 	height:186px;
@@ -511,6 +581,7 @@ footer {
 	height:70px;
 	width:100%;
 }
+
 
 @media only screen and (max-width: 480px) {
 	  .footer_text {
