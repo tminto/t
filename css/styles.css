@@ -390,7 +390,10 @@ font-size:1.6em;
 	margin:0px auto;
 
 	}
-	
+	.poemLinkContainer {
+		display:none;
+
+	}
 
 
 	.textOver img {
